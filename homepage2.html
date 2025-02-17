@@ -3,9 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nextpage-test2</title>
+  <title>Home Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1>wallcome to next page </h1>
+  <section class="flex justify-center items-center">
+    <!-- Phone frame design -->
+    <div class="artboard phone-3">
+      <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-3 ">
+            <!-- added star section  -->
+            <div class="stats shadow mt-1 ">
+              <div class="stat">
+                <div class="stat-value">9,400</div>
+                <div class="stat-title">Available Balance </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <!-- user Action button  -->
+              <div>
+                <button class="btn btn-lg ">Add Money</button>
+                <button class="btn btn-lg ">Cash Out</button>
+              </div>
+            <div class="divider"></div>
+
+              <!-- add maney section strat -->
+               <section >
+                      <form class="card-body">
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Mobile Number </span>
+                          </label>
+                          <input type="number" placeholder="Mobile Number " class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Amount</span>
+                          </label>
+                          <input type="text" placeholder="Enter Your Amount " class="input input-bordered" autocomplete="off" required/>
+                        </div>
+                          <label class="label">
+                            <span class="label-text">PIN</span>
+                          </label>
+                          <input type="password" placeholder="Enter Your Pin " class="input input-bordered" autocomplete="on" required />
+                        <div class="form-control mt-4">
+                          <button class="btn btn-primary">Cash Out</button>
+                        </div>
+                      </form>
+               </section>
+              <!-- add maney section end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/homepage2.js"></script>
 </body>
 </html>
