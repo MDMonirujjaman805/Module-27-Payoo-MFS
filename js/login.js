@@ -2,10 +2,10 @@ document.getElementById('login-btn').addEventListener('click',function(event){
   event.preventDefault();
   const phoneNumber = document.getElementById('phone-number').value;
   const pin = document.getElementById('pin').value;
-  console.log(phoneNumber,pin);
+  // console.log(phoneNumber,pin);
   
   if(phoneNumber === '5' && pin === '1234'){
-    window.location.href = "./nextpage.html";
+    window.location.href = "./homepage.html";
   }else{
     window.location.href = "./nextpage2.html";
   }
