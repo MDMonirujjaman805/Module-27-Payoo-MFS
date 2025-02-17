@@ -5,9 +5,9 @@ document.getElementById('login-btn').addEventListener('click',function(event){
   // console.log(phoneNumber,pin);
   
   if(phoneNumber === '5' && pin === '1234'){
-    window.location.href = "./homepage.html";
+    window.location.href = "./home.html";
   }else{
-    window.location.href = "./nextpage2.html";
+    window.location.href = "./homepage2.html";
   }
 });
 
