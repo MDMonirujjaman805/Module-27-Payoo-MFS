@@ -12,11 +12,11 @@ document.getElementById('btn-add-money').addEventListener('click',function (even
     // console.log(mainBalance);
     const preBalance = parseFloat(mainBalance);
     const nextBalance = parseFloat(amount);
-    const newBalance = preBalance + nextBalance;
+    const newBalance = preBalance - nextBalance;
     document.getElementById('main-balance').innerText = newBalance;
     console.log(newBalance);
-    alert('Add Money Successful!')
+    alert('Your Cash Out Successful!')
   }else{
     alert('Try agin!')
   }
-});
+})

@@ -6,7 +6,7 @@ document.getElementById('btn-add-money').addEventListener('click',function (even
   // console.log(amountInputField);
   const pinInputField = document.getElementById('pin-input-field').value;
   // console.log(pinInputField);
-  if(pinInputField === '1234'){
+  if(pinInputField === '456'){
     const mainBalance = document.getElementById('main-balance').innerText;
     // console.log(mainBalance);
     const mainBalanceNumber = parseFloat(mainBalance);
@@ -14,7 +14,7 @@ document.getElementById('btn-add-money').addEventListener('click',function (even
     const newBalance = mainBalanceNumber + amountNumber;
     console.log( newBalance);
     document.getElementById('main-balance').innerText = newBalance;
-    console.log('added taka in your account');
+    alert('Add Money Successful!')
   }else{
   alert('Try agin!')
   };

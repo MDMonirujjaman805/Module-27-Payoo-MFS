@@ -4,10 +4,10 @@ document.getElementById('login-btn').addEventListener('click',function(event){
   const pin = document.getElementById('pin').value;
   // console.log(phoneNumber,pin);
   
-  if(phoneNumber === '5' && pin === '1234'){
-    window.location.href = "./home.html";
+  if(phoneNumber === '01518991484' && pin === '456'){
+    window.location.href = "./addmoney.html";
   }else{
-    window.location.href = "./homepage2.html";
+    window.location.href = "./cashout.html";
   }
 });
 
