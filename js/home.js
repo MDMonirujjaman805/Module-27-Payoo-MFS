@@ -23,6 +23,8 @@ document.getElementById('btn-add-money').addEventListener('click',function (even
 
 
 
+
+
 // mainBalance = "9,400"; 
 // parseFloat(mainBalance) // => 9 (ভুল ফলাফল!)
 // console.log(mainBalance);
